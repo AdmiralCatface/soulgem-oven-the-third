@@ -309,7 +309,7 @@ Event OnOptionSliderOpen(Int Item)
 		Interval = 0.05
 	ElseIf(Item == ItemScaleBellyHigh)
 		Val = SGO.OptScaleBellyHigh
-		Min = -0.5
+		Min = -10.0
 		Max = 0.0
 		Interval = 0.01
 	ElseIf(Item == ItemScaleBreastHigh)
